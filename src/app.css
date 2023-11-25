@@ -1,0 +1,96 @@
+/* app.css */
+
+/* Reset some default styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Arial", sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+main {
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #3490dc;
+    margin-bottom: 20px;
+}
+
+/* AddForm styles */
+main input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+main button {
+    padding: 10px;
+    background-color: #3490dc;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+}
+
+/* Counter styles */
+main button {
+    margin-top: 20px;
+}
+
+/* ListaTodo styles */
+/* No specific styles for ListaTodo in this example */
+
+/* TodoComponent styles */
+main div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+main button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+main svg {
+    width: 20px;
+    height: 20px;
+    fill: #3490dc;
+}
+
+/* DaisyUI Integration */
+main .btn-primary {
+    /* Override DaisyUI primary button styles */
+    background-color: #4caf50;
+    color: #fff;
+}
+
+main .input {
+    /* Override DaisyUI input styles */
+    border: 1px solid #4caf50;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+/* Add more overrides and customizations as needed for DaisyUI components */
