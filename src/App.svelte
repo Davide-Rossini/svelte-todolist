@@ -5,7 +5,7 @@
   import {todos} from "./lib/store";
 </script>
 
-<main> 
+<main>
   <h1>TODO List App</h1>
   <TodoCounter />
   <AddForm />
