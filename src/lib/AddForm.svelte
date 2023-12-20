@@ -15,4 +15,4 @@
 </script>
 
 <input type = "text" bind:value={nuovoTodo} class="input input-bordered input-info w-full max-w-xs"/>
-<button on:click={AddTodo} class="btn btn-info">Add</button>
+<button on:click={AddTodo} class="btn btn-outline btn-primary">Add</button>
